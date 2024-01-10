@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    width: 100%;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+}
+button, input{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+header span{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+header .center{
+    display: flex;
+    gap: 70px;
+    font-weight: 700;
+    font-size: 15px;
+}
+header button{
+    width: 200px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+header h3{
+    display: none;
+}
+section{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr ;
+    width: 100%;
+    
+}
+section .page1{
+    padding-left: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+section .page1 h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+section .page1 p{
+    width: 370px;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+}
+section img{
+    width: 100%;
+    height: 490px;
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+aside{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:100px;
+    margin-bottom: 100px;
+}
+aside h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    width: 270px;
+    text-align: center;
+    margin-left: -70px;
+}
+aside h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: -10px;
+    
+}
+aside .page1,aside .page2,aside .page3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px;
+    gap: 10px;
+}
+aside .page1, aside .page3{
+    height: 410px;
+    width: 100%;
+    background-color: #DFDFDF;
+}
+aside .page2{
+    border-top:10px solid rgba(202, 129, 61, 0.627) ;
+    background-color:#000000;
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+aside .page2 .p2{
+    width: 270px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    align-self: center;
+}
+
+aside .p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    color: #000000;
+    width: 270px;
+    align-self: center;
+}
+aside .per{
+    margin-top: -10px;
+}
+aside .btn{
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    border: none;
+}
+aside .btn2{
+    width: 290px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+main{
+    margin: 200px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 551px;
+}
+main h2{
+    text-align: center;
+}
+main table{
+   
+}
+main table .tr1{
+    
+}
+main table tr {
+    outline: 0.1px solid rgba(0, 0, 0, 0.1);  
+}
+main table tr th{
+    text-transform: uppercase ;
+    padding: 20px 90px;  
+}
+main table tr td{
+    padding: 20px 10px 10px 100px; 
+}
+main table tr{
+    
+    border-bottom: 1px solid red;
+}
+
+.section2{
+    background-image: url(./Bitmap\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2 h1{
+    width: 400px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 7px; 
+}
+.section2 h5{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+.section2 h5:hover{
+    border-bottom: 1px dashed slategray;
+}
+
+
+
+footer{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color: black;
+}
+footer .footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: flex-start;
+}
+footer .footer1 span{
+    display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer2{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+footer .footer3 {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer3 h5{
+    
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    gap: 5px;
+}
+footer .footer3 p{
+    color:slategray;
+}
+@media(max-width:1200px) {
+    main{
+        margin: 100px 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 551px;
+    }
+    main table tr th{
+        text-transform: uppercase ;
+        padding: 10px 10px;  
+    }
+    main table tr td{
+        padding: 20px 10px 10px 30px; 
+    }
+}
+
+@media (max-width:1000px) {
+    section{
+        display: grid;
+        grid-template-columns: 2fr 1.3fr;
+    }
+    aside{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 70px;
+    }
+    main{
+        margin: 100px 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 551px;
+    }
+    main table tr th{
+        text-transform: uppercase ;
+        padding: 10px 10px;  
+    }
+    main table tr td{
+        padding: 20px 10px 10px 30px; 
+    }
+}
+@media (max-width:800px) {
+    header{
+        margin-bottom: 30px;
+    }
+    header .center{
+    display: none;
+    }
+    header button{
+        display: none;
+    }
+    header h3{
+        display: block;
+    }
+    section {
+       display: flex;
+       flex-direction: column-reverse;
+       
+    }
+    section .page1{
+        height: 400px;
+        width: 100%;
+    }
+    section img{
+        height: 400px;
+        width: 100%;
+    }
+    footer{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px;
+    }
+    footer .footer1{
+     gap: 100px;
+    }
+    footer .footer2{
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        display: flex;
+        gap: 15px;
+    }
+}
+@media(max-width:650px) {
+    main{
+        margin: 0px 0px 150px 30px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 551px;
+    }
+    main table tr th{
+        text-transform: uppercase ;
+        padding: 10px;  
+    }
+    main table tr td{
+        padding: 10px 10px 10px 20px; 
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .section2 h1{
+        font-size: 30px;
+        width: 300px;
+    }
+    .section2 h3{
+        align-self: flex-start;
+        justify-self: flex-start;
+        
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 50px;
+        position: relative;
+        
+    }
+    footer .footer1{
+        
+        gap: 170px;
+    }
+    footer .footer2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        
+        gap: 10px;
+        line-height: 20px;
+    }
+    footer .footer3{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    }
+}
+@media (max-width: 500px){
+    section .page1{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    section .page1 p{
+        width: 290px;
+    }
+}
+@media (max-width:400px ) {
+    main{
+        /* margin: 0px 0px 150px 30px; */
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 551px;
+    }
+    main table tr th{
+        text-transform: uppercase ;
+        padding: 0px;  
+    }
+    main table tr td{
+        padding: 10px 10px 10px 20px; 
+    }
+}
